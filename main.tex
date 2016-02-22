@@ -1,0 +1,127 @@
+% Template KLTN cho SV trường ĐHKHTN
+% Liên hệ: nqminh@fit.hcmus.edu.vn
+% Last update: 08/07/2015
+
+% Chú ý: đọc dòng 62 và 121 của file này và chỉnh lại cho phù hợp
+
+\documentclass[oneside,a4paper,14pt]{extreport}
+
+% Font tiếng Việt
+\usepackage[T5]{fontenc}
+\usepackage[utf8]{inputenc}
+\DeclareTextSymbolDefault{\DH}{T1}
+
+% Tài liệu tham khảo
+\usepackage[
+	sorting=nty,
+	backend=bibtex,
+	defernumbers=true]{biblatex}
+\usepackage[unicode]{hyperref} % Bookmark tiếng Việt
+\addbibresource{References/references.bib}
+
+% Chèn hình, các hình trong luận văn được để trong thư mục Images/
+\usepackage{graphicx}
+\graphicspath{ {Images/} }
+
+% Chèn mã nguồn
+\usepackage{listings}
+
+% Bảng biểu
+\usepackage{multirow}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% Đổi tên mặc định
+\renewcommand{\chaptername}{Chương}
+\renewcommand{\figurename}{Hình}
+\renewcommand{\tablename}{Bảng}
+\renewcommand{\contentsname}{Mục lục}
+\renewcommand{\listfigurename}{Danh sách hình}
+\renewcommand{\listtablename}{Danh sách bảng}
+\renewcommand{\appendixname}{Phụ lục}
+
+% Dãn dòng 1.5
+\usepackage{setspace}
+\onehalfspacing
+
+% Canh lề
+\usepackage[
+  top=35mm,
+  bottom=30mm,
+  left=35mm,
+  right=20mm,
+  includefoot]{geometry}
+  
+% Trang bìa
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\newcommand\HRule{\rule{\textwidth}{1pt}}
+
+% Thông tin chung về KLTN - sinh viên điền vào đây để tự động update các trang khác
+\newcommand{\tenSV}{Nguyễn Sinh Viên}
+\newcommand{\mssv}{1234567}
+\newcommand{\tenKL}{Sử dụng LaTeX trong Khoá luận tốt nghiệp}
+\newcommand{\tenGVHD}{Đinh~Điền}
+\newcommand{\tenGVPB}{Nghiêm~Quốc~Minh}
+\newcommand{\tenBM}{Công nghệ tri thức}
+
+\begin{document}
+
+\input{Title/title.tex}
+\input{Title/nxgvhd.tex}
+\input{Title/nxgvpb.tex}
+
+\pagenumbering{roman} % Đánh số i, ii, iii, ...
+
+%\addcontentsline{toc}{chapter}{Lời cam đoan}
+%\include{Appendix/reassurances}
+
+\addcontentsline{toc}{chapter}{Lời cảm ơn}
+\include{Appendix/thanks}
+
+\addcontentsline{toc}{chapter}{Đề cương chi tiết}
+\include{Appendix/decuong}
+
+% Mục lục, danh sách hình, danh sách bảng
+\addcontentsline{toc}{chapter}{Mục lục}
+\tableofcontents
+\listoffigures
+\listoftables
+
+\addcontentsline{toc}{chapter}{Tóm tắt}
+\include{Appendix/tomtat}
+
+\clearpage
+
+\pagenumbering{arabic} % Đánh số 1, 2, 3, ...
+
+% Các chương nội dung
+\include{Chapter1/chapter1}
+
+\include{Chapter2/chapter2}
+
+\include{Chapter3/chapter3}
+
+% Công trình của tác giả (nếu có)
+%\addcontentsline{toc}{chapter}{Danh mục công trình của tác giả}
+%\include{Appendix/publish}
+
+% In tài liệu tham khảo
+\addcontentsline{toc}{chapter}{Tài liệu tham khảo}
+\printbibheading[title={Tài liệu tham khảo}]
+
+%\printbibliography[heading=subbibliography, title={Tiếng Việt}, keyword=Viet, resetnumbers=true]
+
+\DeclareNameAlias{sortname}{last-first}
+\DeclareNameAlias{default}{last-first}
+
+\printbibliography[heading=subbibliography, title={Tiếng Anh}, notkeyword=Viet, resetnumbers=4] 
+% Chú ý: phải gán lại resetnumbers=số tài liệu tham khảo tiếng Việt + 1
+
+% Phần phụ lục
+\include{Appendix/appendix1}
+\include{Appendix/appendix2}
+
+\end{document} 
