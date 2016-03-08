@@ -100,6 +100,26 @@
   \field{year}{1984}
 \endentry
 
+\entry{Luhn58}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Luhn}{L.}%
+     {H.~P.}{H.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LHP1}
+  \strng{fullhash}{LHP1}
+  \field{sortinit}{L}
+  \field{number}{2}
+  \field{pages}{159\bibrangedash 165}
+  \field{title}{{The Automatic Creation of Literature Abstracts}}
+  \field{volume}{2}
+  \field{journaltitle}{IBM J. Res. Dev.}
+  \field{month}{04}
+  \field{year}{1958}
+\endentry
+
 \entry{HDLVThS}{online}{}
   \name{author}{1}{}{%
     {{}%
@@ -184,7 +204,7 @@
   \field{urlyear}{2015}
 \endentry
 
-\entry{1989-TED}{article}{}
+\entry{199-TED}{article}{}
   \name{author}{2}{}{%
     {{}%
      {Zhang}{Z.}%

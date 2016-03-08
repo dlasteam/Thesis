@@ -34,24 +34,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}T\IeC {\h \ocircumflex }ng quan v\IeC {\`\ecircumflex } Deep Learning}{6}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Feed-forward Neural Network}{6}{section.3.1}
+\contentsline {section}{\numberline {3.1}M\IeC {\d a}ng N\IeC {\ohorn }-ron nh\IeC {\^a}n t\IeC {\d a}o}{6}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Recursive Neural Network}{6}{section.3.2}
+\contentsline {section}{\numberline {3.2}Feed-forward Neural Network}{7}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Recursive Neural Network}{6}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Recursive Neural Network}{8}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Recursive Auto-encoder Neural Network}{6}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3.1}Recursive Neural Network}{8}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Convolution Neural Network}{6}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.2}Recursive Auto-encoder Neural Network}{8}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Recurrent Neural Network}{6}{section.3.4}
+\contentsline {section}{\numberline {3.4}Convolution Neural Network}{8}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Recurrent Neural Network}{6}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Recurrent Neural Network}{8}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Long Short Term Memory}{6}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.5.1}Recurrent Neural Network}{8}{subsection.3.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{T\IeC {\`a}i li\IeC {\d \ecircumflex }u tham kh\IeC {\h a}o}{7}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.5.2}Long Short Term Memory}{8}{subsection.3.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Ng\IeC {\~\uhorn } ph\IeC {\'a}p ti\IeC {\'\ecircumflex }ng Vi\IeC {\d \ecircumflex }t}{8}{appendix.A}
+\contentsline {section}{\numberline {3.6}Tr\IeC {\'\i }ch d\IeC {\~\acircumflex }n t\IeC {\`a}i li\IeC {\d \ecircumflex }u}{8}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Ng\IeC {\~\uhorn } ph\IeC {\'a}p ti\IeC {\'\ecircumflex }ng N\IeC {\^o}m}{9}{appendix.B}
+\contentsline {section}{\numberline {3.7}Ch\IeC {\`e}n m\IeC {\~a} ngu\IeC {\`\ocircumflex }n}{8}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}H\IeC {\`\i }nh \IeC {\h a}nh}{9}{section.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}B\IeC {\h a}ng bi\IeC {\h \ecircumflex }u}{10}{section.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.10}C\IeC {\^o}ng th\IeC {\'\uhorn }c}{10}{section.3.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{T\IeC {\`a}i li\IeC {\d \ecircumflex }u tham kh\IeC {\h a}o}{12}{equation.3.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Ng\IeC {\~\uhorn } ph\IeC {\'a}p ti\IeC {\'\ecircumflex }ng Vi\IeC {\d \ecircumflex }t}{13}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Ng\IeC {\~\uhorn } ph\IeC {\'a}p ti\IeC {\'\ecircumflex }ng N\IeC {\^o}m}{14}{appendix.B}
